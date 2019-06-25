@@ -1,0 +1,62 @@
+.navbar 
+{
+    height:7vh;
+    background-color:#7BCCCC;
+}
+.nav
+{
+    height:100%;
+    width:100%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.header_li
+{
+    display: inline;
+    height:100%;
+    float:right;
+    margin-right:1vw;
+}
+ #navlogo
+{
+	display:inline;
+    height:100%;
+    float:right;
+    margin-right: 25%;
+	}
+#navlogoimg
+{
+    height:100%;
+
+}
+#navcard
+{
+    display:inline;
+    height:80%;
+    float:right;
+    margin-right:1vw;
+    background:white;
+    width:10vw;
+    margin-top:0.6vh;
+    text-align:center;
+}
+
+
+#navburger
+{
+    display:inline;
+    height:100%;
+    float:left;
+    margin-left:1vw;
+}
+
+.imgnavbar
+{
+    height:50%;
+    margin-top:45%;
+}
+.navli:hover
+{
+ background-color:#C9F3F3;
+}

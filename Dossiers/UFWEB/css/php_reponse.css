@@ -1,0 +1,15 @@
+
+body{
+    background-image: url("https://no-petrolio-abruzzo.com/wp-content/uploads/2018/07/tableau-peinture-acrylique-mer-nouveau-tableau-peinture-abstrait-acrylique-liberee-of-tableau-peinture-acrylique-mer.jpg"); 
+}
+#reponse{
+    display: inline;
+    font-size:  24px;
+    font-weight: bold;
+    position: fixed;
+    right: 850px;
+    top :400px;
+    color : black;
+    background-color:white;
+         
+}

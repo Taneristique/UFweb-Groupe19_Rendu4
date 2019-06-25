@@ -1,0 +1,5 @@
+CREATE TABLE `workstation`.`images` ( `id_image` INT NOT NULL AUTO_INCREMENT , `image` VARCHAR(200) NOT NULL , PRIMARY KEY (`id_image`)) ENGINE = MyISAM;
+CREATE TABLE `workstation`.`membre` (`id_membre` INT NOT NULL AUTO_INCREMENT , `nom` VARCHAR(10) NOT NULL ,`prenom` VARCHAR(20) NOT NULL,`pays` VARCHAR(15) INT NOT NULL ,`date` DATE NOT NULL,`pseudo` VARCHAR(8) NOT NULL,EMAIL VARCHAR(25) NOT NULL,`account_permissions` enum('a','b') NOT NULL DEFAULT 'b', PRIMARY KEY (`id_membre`)) ENGINE = MyISAM;
+CREATE TABLE `workstation`.`Notifications` ( `id_notif` INT NOT NULL , `destinateur` VARCHAR(250) NOT NULL , `sujet_notif` INT NULL , `id_admin` INT NULL , UNIQUE (`id_notif`)) ENGINE = MyISAM;
+CREATE TABLE `workstation`.`admin` ( `id_admin` INT NOT NULL AUTO_INCREMENT , `pseudo_admin` VARCHAR(10) NOT NULL , `mot_de_passe` TEXT NOT NULL , PRIMARY KEY (`id_admin`)) ENGINE = MyISAM;
+CREATE TABLE `workstation`.`Message` ( `id_message` INT NOT NULL AUTO_INCREMENT , `expediteur` VARCHAR(30) NOT NULL , `destinateur` VARCHAR(90) NOT NULL , `objet` VARCHAR(50) NULL , `sujet` TEXT NOT NULL , PRIMARY KEY (`id_message`)) ENGINE = MyISAM;
